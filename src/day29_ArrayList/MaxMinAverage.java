@@ -31,8 +31,5 @@ public class MaxMinAverage {
 
         System.out.println("\n max = " + max);
 
-
-
-
     }
 }
