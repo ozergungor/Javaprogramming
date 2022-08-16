@@ -1,6 +1,6 @@
 package day44_Abstraction.AnimalTask;
 
-public class Animal {
+public abstract class Animal {
 
     private String name;
     private final String breed;
@@ -66,6 +66,16 @@ public class Animal {
     public String getColor() {
         return color;
     }
+
+    public final void drink(){
+        System.out.println(name + " is drinking");
+    }
+
+    public abstract void eat();
+
+
+
+
 }
 
 
