@@ -73,9 +73,16 @@ public abstract class Animal {
 
     public abstract void eat();
 
-
-
-
+    public String toString() {
+        return getClass().getSimpleName()+ "{" +
+                "name='" + name + '\'' +
+                ", breed='" + breed + '\'' +
+                ", gender=" + gender +
+                ", age=" + age +
+                ", size='" + size + '\'' +
+                ", color='" + color + '\'' +
+                '}';
+    }
 }
 
 
